@@ -19,6 +19,16 @@
 
 ### ISO 4217 Currency codes
 
+#### Alphabetic Code
+- Based on ISO 3166 codes for country names
+- First two letters are country code
+- (when possible) third is first letter of the currency name
+
+#### Numeric Code
+- Three digit code useful for when currency codes need to be understood in countries that do not use Latin scripts and for computerized systems
+- Where possible, the three-digit numeric code is the same as the numeric country code.
+
+
 [Docs](https://www.iso.org/iso-4217-currency-codes.html)
 
 ### ISO 639 Language Codes
@@ -74,15 +84,54 @@ Contains language tags (abbreviated language codes) as defined by the Internet E
 
 ## Global Intl Object
 
-### Locale ID
+### Static Properties
+
+#### Intl.Collator
+Constructor for collators, which are objects that enable language-sensitive string comparison.
+
+##### .compare()
+Getter function that compares two strings according to the sort order of this Intl.Collator object.
+
+##### .resolvedOptions()
+Returns a new object with properties reflecting the locale and collation options computed during initialization of the object.
+
+```javasript   
+const numberDe = new Intl.NumberFormat('de-DE');
+const numberAr = new Intl.NumberFormat('ar');
+
+console.log(numberDe.resolvedOptions().numberingSystem);
+// Output: "latn"
+
+console.log(numberAr.resolvedOptions().numberingSystem);
+// Output: "arab"
+```
+
+[Try it](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Collator)
+
+#### Intl.DateTimeFormat
+Constructor for objects that enable language-sensitive date and time formatting.
+
+#### Intl.DisplayNames
+Constructor for objects that enable the consistent translation of language, region and script display names.
+
+#### Intl.DurationFormat
+Constructor for objects that enable locale-sensitive duration formatting.
+
+#### Intl.ListFormat
+Constructor for objects that enable language-sensitive list formatting.
+
+#### Intl.Locale
+Constructor for objects that represents a Unicode locale identifier.
+
+##### Locale ID
 Case-sensitive string that consists of the following (separated by hyphens):
 
-1. a language subtag,
-2. (optionally) a script subtag,
-3. (optionally) a region (or country) subtag,
+1. language subtag,
+2. (optionally) script subtag,
+3. (optionally) region (or country) subtag,
 4. (optionally) one or more variant subtags (all of which must be unique),
 5. (optionally) one or more BCP 47 extension sequences, and
-6. (optionally) a private-use extension sequence
+6. (optionally) private-use extension sequence
 
 > Each subtag and sequence are separated by hyphens. 
 > Locale identifiers are case-insensitive ASCII. However, 
@@ -98,8 +147,22 @@ Case-sensitive string that consists of the following (separated by hyphens):
 > - "zh-Hans-CN": Chinese (language) written in simplified characters (script) as used in China (region)
 > - "en-emodeng": English (language) in the "Early modern English" dialect (variant)
 
+#### Intl.NumberFormat
+Constructor for objects that enable language-sensitive number formatting.
+
+#### Intl.PluralRules
+Constructor for objects that enable plural-sensitive formatting and language-specific rules for plurals.
+
+#### Intl.RelativeTimeFormat
+Constructor for objects that enable language-sensitive relative time formatting.
+
+#### Intl.Segmenter
+Constructor for objects that enable locale-sensitive text segmentation.
+
 ### Notes
 - Not a constructor, all properties are static
+
+[Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl)
 
 ## i18next
 

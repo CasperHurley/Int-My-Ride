@@ -4,11 +4,11 @@
 
 ### ISO 3166 Country Codes
 
-- [ISO Docs](https://www.iso.org/iso-3166-country-codes.html)
+[Docs](https://www.iso.org/iso-3166-country-codes.html)
 
 ### ISO 4217 Currency codes
 
-- [ISO Docs](https://www.iso.org/iso-4217-currency-codes.html)
+[Docs](https://www.iso.org/iso-4217-currency-codes.html)
 
 ### ISO 639 Language Codes
 
@@ -19,11 +19,11 @@
 - Part 4: ISO 639-4:2010 gives the general principles of language coding and lays down guidelines for the use of ISO 639.
 - Part 5: ISO 639-5:2008 provides a 3-letter code for language families and groups (living and extinct).
 
-- [ISO Docs](https://www.iso.org/iso-639-language-codes.html)
+- [Docs](https://www.iso.org/iso-639-language-codes.html)
 
 ### ISO 8601 Date & Time Format
 
-- [ISO Docs](https://www.iso.org/iso-8601-date-and-time-format.html)
+[Docs](https://www.iso.org/iso-8601-date-and-time-format.html)
 
 ## IETF BCP 47 Language Tag
 > An IETF BCP 47 language tag is a standardized code or tag that is 

@@ -2,6 +2,17 @@
 
 ## ISO (International Organization for Standardization)
 
+> ISO allows free-of-charge use of its country, currency and 
+> language codes from ISO 3166, ISO 4217 and ISO 639, respectively.
+> 
+> Users of ISO country codes have the option to subscribe to a paid 
+> service that automatically provides updates and supplies the data 
+> in formats* that are ready-to-use for a wide range of applications.
+> 
+> For more information, visit the ISO Store. 
+>
+> *(.csv, .xml and .xls formats)
+
 ### ISO 3166 Country Codes
 
 [Docs](https://www.iso.org/iso-3166-country-codes.html)
@@ -19,7 +30,7 @@
 - Part 4: ISO 639-4:2010 gives the general principles of language coding and lays down guidelines for the use of ISO 639.
 - Part 5: ISO 639-5:2008 provides a 3-letter code for language families and groups (living and extinct).
 
-- [Docs](https://www.iso.org/iso-639-language-codes.html)
+[Docs](https://www.iso.org/iso-639-language-codes.html)
 
 ### ISO 8601 Date & Time Format
 

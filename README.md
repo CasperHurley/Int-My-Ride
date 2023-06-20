@@ -95,7 +95,7 @@ Getter function that compares two strings according to the sort order of this In
 ##### .resolvedOptions()
 Returns a new object with properties reflecting the locale and collation options computed during initialization of the object.
 
-```javasript   
+```js   
 const numberDe = new Intl.NumberFormat('de-DE');
 const numberAr = new Intl.NumberFormat('ar');
 

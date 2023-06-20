@@ -23,13 +23,27 @@
 
 ### ISO 639 Language Codes
 
-> ISO 639 is composed of five different parts
->
-> - Part 1: ISO 639-1:2002 provides a 2-letter code that has been designed to represent most of the major languages of the world.
-> - Part 2: ISO 639-2:1998 provides a 3-letter code, which gives more possible combinations, so ISO 639-2:1998 can cover more languages.
-> - Part 3: ISO 639-3:2007 provides a 3-letter code and aims to give as complete a listing of languages as possible, including living, extinct and ancient languages.
-> - Part 4: ISO 639-4:2010 gives the general principles of language coding and lays down guidelines for the use of ISO 639.
-> - Part 5: ISO 639-5:2008 provides a 3-letter code for language families and groups (living and extinct).
+Internationally recognized codes for the representation of more than 500 languages or language families
+
+> This ISO standard can be applied across many types 
+> of organization and situations. It’s invaluable for 
+> bibliographic purposes, in libraries or information 
+> management, including computerized systems, and for the 
+> representation of different language versions on Websites.
+> 
+> Using a code(either 2, 3 or 4 letters long), rather 
+> than the name of a language, has many benefits as some 
+> cultures may have different names for the same language, 
+> while some languages may share the same, or similar, names 
+> even though they are unrelated.
+
+ISO 639 is composed of five different parts:
+
+- Part 1: ISO 639-1:2002 provides a 2-letter code that has been designed to represent most of the major languages of the world.
+- Part 2: ISO 639-2:1998 provides a 3-letter code, which gives more possible combinations, so ISO 639-2:1998 can cover more languages.
+- Part 3: ISO 639-3:2007 provides a 3-letter code and aims to give as complete a listing of languages as possible, including living, extinct and ancient languages.
+- Part 4: ISO 639-4:2010 gives the general principles of language coding and lays down guidelines for the use of ISO 639.
+- Part 5: ISO 639-5:2008 provides a 3-letter code for language families and groups (living and extinct).
 
 [Docs](https://www.iso.org/iso-639-language-codes.html)
 

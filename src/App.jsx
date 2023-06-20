@@ -1,8 +1,8 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import './App.css'
 
 function App() {
-  const [data, setData] = useState([]);
+  // const [data, setData] = useState([]);
   
   return (
     <>

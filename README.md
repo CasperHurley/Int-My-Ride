@@ -45,14 +45,19 @@ Case-sensitive string that consists of the following (separated by hyphens):
 5. (optionally) one or more BCP 47 extension sequences, and
 6. (optionally) a private-use extension sequence
 
-```
-Each subtag and sequence are separated by hyphens. Locale identifiers are case-insensitive ASCII. However, it's conventional to use title case (the first letter is capitalized, successive letters are lower case) for script subtags, upper case for region subtags, and lower case for everything else. For example:
-
-- "hi": Hindi (language)
-- "de-AT": German (language) as used in Austria (region)
-- "zh-Hans-CN": Chinese (language) written in simplified characters (script) as used in China (region)
-- "en-emodeng": English (language) in the "Early modern English" dialect (variant)
-```
+> Each subtag and sequence are separated by hyphens. 
+> Locale identifiers are case-insensitive ASCII. However, 
+> it's conventional to use title case (the first letter 
+> is capitalized, successive letters are lower case) for 
+> script subtags, upper case for region subtags, and 
+> lower case for everything else. 
+> 
+> For example:
+> 
+> - "hi": Hindi (language)
+> - "de-AT": German (language) as used in Austria (region)
+> - "zh-Hans-CN": Chinese (language) written in simplified characters (script) as used in China (region)
+> - "en-emodeng": English (language) in the "Early modern English" dialect (variant)
 
 ### Notes
 - Not a constructor, all properties are static

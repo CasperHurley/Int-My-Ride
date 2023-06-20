@@ -4,30 +4,33 @@
 
 ### ISO 3166 Country Codes
 
-- [ISO 3166 Country Codes](https://www.iso.org/iso-3166-country-codes.html)
+- [Check it out](https://www.iso.org/iso-3166-country-codes.html)
 
 ### ISO 4217 Currency codes
 
-- [ISO 4217 Currency codes](https://www.iso.org/iso-4217-currency-codes.html)
+- [Check it out](https://www.iso.org/iso-4217-currency-codes.html)
 
 ### ISO 639 Language Codes
 
-- [ISO 639 Language codes](https://www.iso.org/iso-639-language-codes.html)
+#### Five Different Parts
+- Part 1: ISO 639-1:2002 provides a 2-letter code that has been designed to represent most of the major languages of the world.
+- Part 2: ISO 639-2:1998 provides a 3-letter code, which gives more possible combinations, so ISO 639-2:1998 can cover more languages.
+- Part 3: ISO 639-3:2007 provides a 3-letter code and aims to give as complete a listing of languages as possible, including living, extinct and ancient languages.
+- Part 4: ISO 639-4:2010 gives the general principles of language coding and lays down guidelines for the use of ISO 639.
+- Part 5: ISO 639-5:2008 provides a 3-letter code for language families and groups (living and extinct).
+
+- [Check it out](https://www.iso.org/iso-639-language-codes.html)
 
 ### ISO 8601 Date & Time Format
 
-- [ISO 8601 Date & Time Format](https://www.iso.org/iso-8601-date-and-time-format.html)
+- [Check it out](https://www.iso.org/iso-8601-date-and-time-format.html)
 
 ## IETF BCP 47 Language Tag
-> An IETF BCP 47 language tag is a 
-> standardized code or tag that is 
-> used to identify human languages in 
-> the Internet. The tag structure has 
-> been standardized by the Internet 
-> Engineering Task Force (IETF) in 
-> Best Current Practice (BCP) 47; the 
-> subtags are maintained by the IANA 
-> Language Subtag Registry.
+> An IETF BCP 47 language tag is a standardized code or tag that is 
+> used to identify human languages in the Internet. The tag structure 
+> has been standardized by the Internet Engineering Task 
+> Force (IETF) in Best Current Practice (BCP) 47; the subtags are 
+> maintained by the IANA Language Subtag Registry.
 
 ## IANA Language Subtag Registry
 Contains language tags (abbreviated language codes) as defined by the Internet Engineering Task Force (IETF).

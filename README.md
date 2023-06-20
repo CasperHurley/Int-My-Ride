@@ -92,6 +92,21 @@ Constructor for collators, which are objects that enable language-sensitive stri
 ##### .compare()
 Getter function that compares two strings according to the sort order of this Intl.Collator object.
 
+```js
+const enCollator = new Intl.Collator('en');
+const deCollator = new Intl.Collator('de');
+const svCollator = new Intl.Collator('sv');
+
+console.log(enCollator.compare('z', 'a') > 0);
+// Output: true
+
+console.log(deCollator.compare('z', 'ä') > 0);
+// Output: true
+
+console.log(svCollator.compare('z', 'ä') > 0);
+// Output: false
+```
+
 ##### .resolvedOptions()
 Returns a new object with properties reflecting the locale and collation options computed during initialization of the object.
 
@@ -106,7 +121,7 @@ console.log(numberAr.resolvedOptions().numberingSystem);
 // Output: "arab"
 ```
 
-[Try it](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Collator)
+[Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Collator)
 
 #### Intl.DateTimeFormat
 Constructor for objects that enable language-sensitive date and time formatting.

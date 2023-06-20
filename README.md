@@ -1,13 +1,58 @@
 # Internationalization
 
-## IETF BCP 47 language tag
-"An IETF BCP 47 language tag is a standardized code or tag that is used to identify human languages in the Internet. The tag structure has been standardized by the Internet Engineering Task Force (IETF) in Best Current Practice (BCP) 47; the subtags are maintained by the IANA Language Subtag Registry."
+## ISO (International Organization for Standardization)
+
+### ISO 3166 Country Codes
+
+- [ISO 3166 Country Codes](https://www.iso.org/iso-3166-country-codes.html)
+
+### ISO 4217 Currency codes
+
+- [ISO 4217 Currency codes](https://www.iso.org/iso-4217-currency-codes.html)
+
+### ISO 639 Language Codes
+
+- [ISO 639 Language codes](https://www.iso.org/iso-639-language-codes.html)
+
+### ISO 8601 Date & Time Format
+
+- [ISO 8601 Date & Time Format](https://www.iso.org/iso-8601-date-and-time-format.html)
+
+## IETF BCP 47 Language Tag
+> An IETF BCP 47 language tag is a 
+> standardized code or tag that is 
+> used to identify human languages in 
+> the Internet. The tag structure has 
+> been standardized by the Internet 
+> Engineering Task Force (IETF) in 
+> Best Current Practice (BCP) 47; the 
+> subtags are maintained by the IANA 
+> Language Subtag Registry.
 
 ## IANA Language Subtag Registry
 Contains language tags (abbreviated language codes) as defined by the Internet Engineering Task Force (IETF).
 - [npm language-subtag-registry](https://www.npmjs.com/package/language-subtag-registry)
 
 ## Global Intl Object
+
+### Locale ID
+Case-sensitive string that consists of the following (separated by hyphens):
+
+1. a language subtag,
+2. (optionally) a script subtag,
+3. (optionally) a region (or country) subtag,
+4. (optionally) one or more variant subtags (all of which must be unique),
+5. (optionally) one or more BCP 47 extension sequences, and
+6. (optionally) a private-use extension sequence
+
+```
+Each subtag and sequence are separated by hyphens. Locale identifiers are case-insensitive ASCII. However, it's conventional to use title case (the first letter is capitalized, successive letters are lower case) for script subtags, upper case for region subtags, and lower case for everything else. For example:
+
+- "hi": Hindi (language)
+- "de-AT": German (language) as used in Austria (region)
+- "zh-Hans-CN": Chinese (language) written in simplified characters (script) as used in China (region)
+- "en-emodeng": English (language) in the "Early modern English" dialect (variant)
+```
 
 ### Notes
 - Not a constructor, all properties are static
